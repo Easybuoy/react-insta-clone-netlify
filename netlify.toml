@@ -1,4 +1,0 @@
-[build]
-    command = "npm run build"
-    publish="instagram-app/build"
-    base = "instagram-app"
