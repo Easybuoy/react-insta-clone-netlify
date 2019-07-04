@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Link} from 'react-router-dom';
 
 import StyledSearchBar from "./StyledSearchBar";
 
@@ -9,7 +10,7 @@ export default function SearchBar({ handleSearch }) {
       <div className="logo">
         <i className="fab fa-instagram fa-3x" />
         <hr />
-        <p>Instagram</p>
+        <Link to="/loginuser"><p>Instagram</p></Link>
       </div>
 
       <div className="searchInput">
